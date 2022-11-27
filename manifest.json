@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Auto-Highlight",
+  "description": "Highlights sentences.",
+  "version": "1.0",
+
+
+  "web_accessible_resources": [
+    "unpkg.com/ml5"
+  ],
+
+  "permissions": [
+    "webRequest"
+  ],    
+
+  "content_scripts": [{
+    "matches": ["*://*.mozilla.org/*"],
+    "js": ["sentence-highlighter.js", "main.js"]
+  }]
+
+}
