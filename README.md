@@ -4,7 +4,7 @@
 Highlights every sentence in a random color on mozilla.org.
 
 ## Installation
-## Firefox
+### Firefox
 1. Download and unzip source code.
 2. Open firefox and navigate to about:debugging.
 3. Click "This Firefox" in the left menu.
