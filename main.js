@@ -1,4 +1,4 @@
-console.log("Starting main")
+console.log("Starting main.js")
 // const mySrc = document.createElement("script");
 // mySrc.setAttribute("src", "https://unpkg.com/ml5@latest/dist/ml5.min.js")
 // document.head.appendChild(mySrc);
